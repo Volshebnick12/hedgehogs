@@ -641,7 +641,7 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 0 20px -45px;
+  margin: 0 0 20px 30px;
 }
 
 .callback__form-checkbox {
@@ -1307,6 +1307,10 @@ input[type="number"]:focus {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .callback-form-chek-radio {
+    margin-left: -45px;
   }
 
   .callback__form-checkbox-forme,
