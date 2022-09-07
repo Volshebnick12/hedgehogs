@@ -29,6 +29,10 @@
   --InputBox: #F8F8F8;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body, p,h1,h2,h3,h4,h5,h6,ul {
   margin: 0;
   padding: 0;
@@ -425,6 +429,7 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
+
 } 
 
 .cards__previous,
@@ -961,7 +966,6 @@ input[type="number"]:focus {
     width: 100%;
     max-width: 450px;
     height: 100vh;
-    overflow-x: hidden;
   }
   
   .header {
@@ -1134,6 +1138,7 @@ input[type="number"]:focus {
 
   .info__advantage {
     margin: 0;
+    position: relative;
   }
 
   .info__advantage-list {
@@ -1146,8 +1151,9 @@ input[type="number"]:focus {
 
   .info__advantage-small {
     position: absolute;
-    top: 310px;
-    right: -60px;
+    top: -145px;
+    right: -70px;
+    z-index: 4;
   }
 
   .info__advantage-list-farm,
